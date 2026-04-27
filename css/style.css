@@ -1,0 +1,1853 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lora:ital,wght@0,400..700;1,400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=League+Spartan:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=League+Spartan:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Great+Vibes&family=League+Spartan:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Great+Vibes&family=League+Spartan:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pinyon+Script&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Great+Vibes&family=League+Spartan:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pinyon+Script&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    ---text-color: #ffffff;
+    ---title-font: 'Great Vibes', sans-serif;
+    ---nav-font: 'League Spartan', sans-serif;
+    ---heading3-font: 'Roboto', sans-serif;
+    ---heading1-font: 'Archivo Black', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Arial', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 80px;
+    width: 100%;
+    z-index: 1000;
+    color: var(---text-color);
+}
+
+.container{
+    background-color: rgb(0, 0, 0, 0.5);
+    backdrop-filter: blur(6px);
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid #ffffff4a;
+    opacity: 0;
+    transform: translateY(-30px);
+    animation: revealAnim 4s ease forwards;
+}
+
+.container-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3em;
+}
+
+.container-nav .title-logo a{ 
+    text-decoration: none;
+    color: var(---text-color);
+    font-family: var(---title-font);
+    font-size: 2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.menu-toggle{
+    display: none;
+    width: 30%;
+    border: none;
+    max-width: 100px;
+    cursor: pointer;
+    background-color: transparent;
+
+    img{
+        width: 30px;
+    }
+}
+
+nav .nav-list{
+    display: flex;
+    list-style: none;
+}
+
+nav .nav-list-item{
+    margin: 0 1em;
+}
+
+nav .nav-links{
+    font-family: var(---nav-font);
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(---text-color);
+    position: relative;
+}
+
+nav .nav-links::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 0;
+    bottom: -5px;
+    height: 2px;
+    transition: all 0.3s;
+    background-color: white;
+}
+
+nav .nav-links:hover::after{
+    width: 100%;
+}
+
+/* HOME  */
+.home-content{
+    height: 100vh;
+}
+
+.container-home{
+    height: 100vh;
+}
+
+.video-davao video{
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.home-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;      
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.container-home-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+    width: 80%;
+    color: var(---text-color); 
+    h1{
+        font-size: 5rem;
+        font-family: 'Archivo Black', sans-serif;
+        opacity: 0;
+        text-transform: uppercase;
+        transform: translateY(50px);
+        animation: revealAnim 5s ease forwards;
+    }
+    h2{
+        font-size: 2.5rem;
+        font-family: 'Archivo Black', sans-serif;
+        opacity: 0;
+        text-transform: uppercase;
+        transform: translateY(50px);
+        animation: revealAnim 5s ease forwards;
+    }
+    p{
+        text-align: center;
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+        max-width: 720px;
+        opacity: 0;
+        transform: translateY(50px);
+        animation: revealAnim 5s ease forwards;
+    }
+}
+
+
+.link-resorts{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    max-width: 230px;
+    height: 50px;
+    column-gap: 3px;
+    padding: 0 1em;
+    border-radius: 16px;
+    transition: 0.2s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    a{
+        text-decoration: none;
+        font-family: 'League Spartan', sans-serif;
+        font-weight: 500;
+        font-size: 19px;
+        color: var(---text-color);
+        opacity: 0;
+        scale: 0.8;
+        animation: pop 5s ease forwards;
+    }
+}
+
+.link-resorts a::after{
+    content:"";
+    left: 0;
+    bottom: -5px;
+    width: 0%;
+    height: 2px;
+    transition: all .5s;
+    background-color: var(---text-color);
+    position: absolute;
+}
+
+.link-resorts a:hover::after{
+    width: 100%;
+}
+
+.link-resorts .svg-icon{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    scale: 0.8;
+    animation: pop 5s ease forwards;
+    img{
+        width: 20px;
+    }
+}
+.link-resorts:hover{
+    border: 1px solid #ffffff4a;
+    backdrop-filter: blur(6px);
+}
+
+
+
+
+/* FEATURED RESORTS */
+.featured-section{
+    height: 110vh;
+    background-color: var(---text-color);
+    display: flex;
+    justify-content: center;
+    padding-top: 6em;
+}
+
+.featured-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+
+    h1{
+        font-family: 'Lora', sans-serif;
+        font-size: 2rem;
+        color: #000000;
+        transform: translateY(40px);
+        opacity: 0;
+        animation: revealAnim 5s ease forwards;
+    }
+    p{
+        font-family: var(---heading3-font);
+        font-size: 1.2rem;
+        color: rgb(40, 40, 40);
+        opacity: 0;
+        transform: translateY(40px);
+        animation: revealAnim 5s ease forwards;
+    }
+}
+
+.featured-resort-grid{
+    margin-top: 5em;
+    width: 100%;
+    height: 72vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1.5fr);
+    column-gap: 20px;
+}
+
+.featured-resort-item{
+    opacity: 0;
+    transform: translateY(50px);
+    animation: revealAnim 4s ease forwards;
+}
+
+.featured-resort-item2{
+    opacity: 0;
+    transform: translateY(-50px);
+    animation: revealAnim 4s ease forwards;
+}
+
+.featured-resort-item .column-image,
+.featured-resort-item2 .column-image{
+    width: 100%;
+    height: 40vh;
+    border-radius: 20px;
+    text-align: center;
+    transition: smooth 2s;
+}
+
+.column-image{
+    overflow: hidden;
+}
+
+.column-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out;
+}
+
+.column-image:hover img{
+    transform: scale(1.2);
+}
+
+.resort-description{
+    margin-top: 10px;
+    height: 30vh;
+    display: grid;
+    grid-template-rows: 50px 103px 70px;
+}
+
+.resort-description .description-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    p{
+        font-size: 13px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+    }
+    .p-rate{
+        font-size: 12px;
+    }
+}
+
+.resort-ratings{
+    display: flex;
+    img{
+        width: 13px;
+    }
+    p{
+        padding: 0 2px;
+        font-weight: 300;
+    }
+}
+
+.resort-description .description-body{
+    height: 103px;
+    padding: 0 2px;
+    p{
+        font-family: 'Roboto', sans-serif;
+        font-size: 13px;
+        color: rgb(102, 102, 102);
+        font-size: 13.5px;
+    }
+}
+
+.resort-description .resort-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resort-link .link-details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 2px;
+    margin-top: 1.5em;
+    height: 40px;
+    width: 55%;
+    max-width: 150px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    img{
+        width: 14px;
+    }
+}
+
+.link-details a{
+        text-decoration: none;
+        color: black;
+        font-family: var(---nav-font);
+        font-weight: 500;
+        font-size: 13px;
+        position: relative;
+        transition: all 0.3s;
+}
+
+.link-details a::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 0;
+    bottom: -5px;
+    height: 1.5px;
+    transition: all 0.3s;
+    background-color: black;
+}
+
+.link-details a:hover::after{
+    width: 100%;
+}
+
+
+
+
+
+/* Resort */
+.resort-section{
+    height: 170vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 6em;
+}
+
+.resort-container{
+    height: 135vh;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+
+    h1{
+        font-size: 2rem;
+        font-family: 'Lora', sans-serif;
+        opacity: 0;
+        text-transform: uppercase;
+        transform: translateY(50px);
+        animation: revealAnim 5s ease forwards;
+    }
+    p{
+        font-family: var(---heading3-font);
+        font-size: 1.2rem;
+        color: rgb(40, 40, 40);
+        opacity: 0;
+        transform: translateY(40px);
+        animation: revealAnim 5s ease forwards;
+        margin-bottom: 20px;
+    }
+}
+
+.resort-grid-container{
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.resort-content{
+    background-color: lightblue;
+    height: 37.8vh;
+    border-radius: 12px;
+    
+    /* Animation scroll 
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;*/
+
+    opacity: 0;
+    scale: 0.8;
+    animation: pop 4s ease forwards;
+}
+
+.resort-image{
+    position: relative;
+    img{
+        width: 100%;
+        height: 37.8vh;
+        object-fit: cover;
+        border-radius: 12px;
+        /* To Sliglty darken the image*/
+        filter: brightness(70%);
+    }
+}   
+
+.description-overlay{
+    border-radius: 12px;
+    position: absolute;
+    overflow: hidden;
+    bottom: 3px;
+    left: 0;
+    height: 85px;
+    width: 100%;
+    transition: all 0.6s ease-in-out;
+}
+
+.resort-image:hover .description-overlay{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 99.4%;
+}
+
+.resort-info{
+    padding-left: 15px;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    color: var(---text-color);
+    text-align: left;
+    h2{
+        display: inline-block;
+        font-family: 'Lora', sans-serif;
+        color: var(---text-color);
+        position: relative;
+        font-size: 1.4rem;
+        height: 30px;
+    }
+    p{
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        margin-top: 30px;
+        height: 110px;
+        width: 90%;
+        color: rgb(225, 225, 225);
+    }
+}
+
+.resort-details{
+    margin-top: 8px;
+    height: 35px;
+    width: 80%;
+    max-width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.815);
+    cursor: pointer;
+}
+
+.resort-details a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    position: relative;
+}
+
+.resort-details a::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -2px;
+    height: 1px;
+    width: 0;
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.resort-details a:hover::after{
+    width: 100%;
+}
+
+
+
+
+/* About */
+.about-section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-container{
+    height: 80vh;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    column-gap: 10px;
+}
+
+.about-image{
+    padding-top: 3em;
+    padding-left: 1em;
+}
+
+.about-image-relative{
+    height: 60vh;
+    width: 90%;
+    position: relative;
+    border-radius: 10px;
+    opacity: 0;
+    transform: translateX(-50px);
+    animation: revealAnim1 5s ease forwards;
+}
+
+.about-image-relative img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    filter: drop-shadow(-0px 0px 10px rgb(0, 0, 0));
+}
+
+.about-image-absolute{
+    position: absolute;
+    z-index: 1;
+    height: 20vh;
+    width: 50%;
+    right: -30px;
+    bottom: -50px;
+    border-radius: 10px;
+    opacity: 0;
+    transform: translateY(100px);
+    animation: revealAnim 5s ease forwards;
+}
+
+.about-image-absolute img{
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px;
+    filter: drop-shadow(-0px 0px 10px rgb(0, 0, 0));
+}
+
+.about-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 10px;
+    h3{
+        font-family: 'Montserrat Alternates', sans-serif;
+        opacity: 0;
+        transform: translateY(30px);
+        animation: revealAnim 5s ease forwards;
+    }
+    h1{
+        font-family: 'Lora', sans-serif;
+        opacity: 0;
+        transform: translateY(40px);
+        animation: revealAnim 5s ease forwards;
+    }
+    p{
+        color: rgb(102, 102, 102);
+        font-family: 'Poppins', sans-serif;
+        opacity: 0;
+        transform: translateY(50px);
+        animation: revealAnim 5s ease forwards;
+    }
+}
+
+.about-explore-link{
+    background-color: #add8e6;
+    margin-top: 10px;
+    height: 40px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    cursor: pointer;
+    opacity: 0;
+    transform: translateY(60px);
+    animation: revealAnim 5s ease forwards;
+
+    a{
+        text-decoration: none;
+        color: black;
+        font-family: 'League Spartan', sans-serif;
+    }
+}
+
+
+
+
+
+/* Contact */
+.contact-section{
+    height: 110vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    img{
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+        filter: brightness(70%);
+    }
+}
+
+.contact-overlay{
+    position: absolute;
+    height: 80vh;
+    width: 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(88, 88, 88, 0.212);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.411);
+    /*box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.16), 0 6px 20px 0 rgba(255, 255, 255, 0.15);*/
+    border-radius: 13px;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+}
+
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(---text-color);
+    padding: 0 20px;
+    row-gap: 13px;
+
+    h1{
+        font-family: 'Lora', sans-serif;
+        text-align: center;
+        font-size: 2.3rem;
+        opacity: 0;
+        transform: translateY(30px);
+        animation: revealAnim 5s ease forwards;
+    }
+    p{
+        font-family: 'Poppins', sans-serif;
+        opacity: 0;
+        transform: translateY(40px);
+        animation: revealAnim 5s ease forwards;
+    }
+}
+
+.contact-links{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: revealAnim 5s ease forwards;
+    img{
+        height: 30px;
+        width: 30px;
+        cursor: pointer;
+    }
+    a{
+        text-decoration: none;
+        font-size: 13px;
+        color: var(---text-color);
+    }
+}
+
+
+.contact-inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+    height: 70vh;
+    width: 90%;
+    color: white;
+    background-color: rgba(237, 237, 237, 0.267);
+    backdrop-filter: blur(5px);
+    border-radius: 13px;
+    opacity: 0;
+    scale: 0.8;
+    animation: pop 4s ease forwards;
+
+    h3{
+        font-family: 'Lora', sans-serif;
+        font-size: 1.4rem;
+        opacity: 0;
+        transform: translateY(30px);
+        animation: revealAnim 5s ease forwards;
+    }
+    p{
+        text-align: center;
+        font-size: 14px;
+        padding: 0 1em;
+        opacity: 0;
+        transform: translateY(40px);
+        animation: revealAnim 5s ease forwards;
+    }
+}
+
+.container-input .contact-input{
+    height: 50px;
+    margin-top: 10px;
+    padding-left: 1em;
+    width: 95%;
+    border-radius: 6px;
+    border: none;
+    font-size: 14px;
+    font-family: 'Arial', sans-serif;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: revealAnim 5s ease forwards;
+}
+
+.container-input textarea{
+    resize: none; /* prevents resizing */
+    height: 20vh;
+    width: 95%;
+    padding: 10px;
+    border-radius: 6px;
+    font-family: 'Poppins', sans-serif;
+    opacity: 0;
+    transform: translateY(60px);
+    animation: revealAnim 5s ease forwards;
+}
+
+.container-input textarea::placeholder{
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+}
+
+.contact-input:focus,
+.container-input textarea:focus{
+    outline: none;
+}
+
+.contact-input::placeholder,
+.contact-container textarea::placeholder{
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: #000000;
+}
+
+.contact-btn{
+    background-color: lightblue;
+    color: #393939;
+    margin-top: 10px;
+    width: 95%;
+    height: 45px;
+    border-radius: 9px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'League Spartan', sans-serif;
+    cursor: pointer;
+    opacity: 0;
+    transform: translateY(70px);
+    animation: revealAnim 5s ease forwards;
+}
+
+
+
+
+
+
+/* Footer */
+
+.footer-section{
+    background-color: white;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container{
+    height: 35vh;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-content{
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    height: 27vh;
+    border-bottom: 1px solid rgb(59, 59, 59);
+}
+
+.footer-logo{
+    height: 95%;
+    a{
+        color: black;
+        text-decoration: none;
+        font-size: 2.8rem;
+        font-family: var(---title-font);
+        opacity: 0;
+        animation: revealAnim 6s ease forwards;
+    }
+    p{
+        margin-top: 10px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+        color: #393939;
+        opacity: 0;
+        transform: translateY(50px);
+        animation: revealAnim 5s ease forwards;
+    }
+}
+
+.footer-social-media-container{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+    height: 50px;
+    cursor: pointer;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: revealAnim 5s ease forwards;
+}
+
+.footer-social-media-links{
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    img{
+        width: 25px;
+    }
+}
+
+.footer-nav{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    height: 95%;
+    padding-top: 10px;
+    padding-left: 5em;
+    h4{
+        font-family: 'Lora', sans-serif;
+        opacity: 0;
+        scale: 0.8;
+        animation: pop 5s ease forwards;
+    }
+}
+
+.footer-nav .footer-nav-list{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.footer-nav .footer-nav-list-item{
+    margin: 4px 0;
+    font-family: 'Lora', sans-serif;
+        opacity: 0;
+        scale: 0.8;
+        animation: pop 5s ease forwards;
+}
+
+.footer-nav .footer-nav-links{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: #393939;
+    font-size: 14px;
+}
+
+.footer-contact{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    height: 95%;
+    padding-top: 10px;
+    h4{
+        padding-left: 12px;
+        font-family: 'Lora', sans-serif;
+        opacity: 0;
+        scale: 0.8;
+        animation: pop 5s ease forwards;
+    }
+}
+
+.footer-contact-links{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin: 0 10px;
+    column-gap: 10px;
+    opacity: 0;
+    transform: translateX(50px);
+    animation: revealAnim 5s ease forwards;
+
+    img{
+        height: 25px;
+        width: 25px;
+    }
+    a{
+        text-decoration: none;
+        font-size: 13px;
+        color: #393939;
+    }
+}
+
+.footer-copy-right{
+    margin-top: 25px;
+    p{
+        text-align: center;
+        font-size: 14px;
+        opacity: 0;
+        scale: 0.8;
+        animation: pop 5s ease forwards;
+    }
+}
+
+
+
+
+@keyframes revealAnim1 {
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+
+@keyframes revealAnim {
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Animation scroll */
+@keyframes appear {
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+@keyframes pop {
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+@keyframes bounce {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(10px);
+    }
+    50%{
+        transform: translateY(-10px);    
+    }
+}
+
+/* MOBILE VIEW */
+@media (max-width: 620px){
+    /* HOME PAGE */
+    .menu-toggle{
+        display: block;
+        width: 20%;
+        img{
+            width: 27px;
+        }
+    }
+    nav{
+        display: none;
+    }
+    .container-nav{
+        padding: 0 2em;
+    }
+    .container-nav .title-logo a{
+        font-size: 1.5rem;
+    }
+    .container-home-text{
+        h1{
+            font-size: 2.1rem;
+        }
+        h2{
+            font-size: 1.2rem;
+        }
+        p{
+            max-width: 620px;
+            font-size: 11px;
+        }
+    }
+    .link-resorts a{
+        font-size: 15px;
+    }
+    .link-resorts .svg-icon{
+        img{
+            width: 18px;
+        }
+    }
+
+    /* ABOUT */
+    .about-section{
+        height: 190vh;
+    }
+    .about-container{
+        height: 150vh;
+        grid-template-columns: 1fr;
+        width: 90%;
+    }
+    .about-image{
+        padding-top: 5em;
+        padding-left: 1em;
+    }
+    .about-image-relative{
+        width: 90%;
+        height: 40vh;
+        transform: translatey(-50px);
+        animation: revealAnim 5s ease forwards;
+    }
+    .about-image-absolute{
+        width: 40%;
+        height: 13vh;
+        right: -10px;
+        bottom: -30px;
+    }
+    .about-content{
+        align-items: center;
+        padding: 10px 2em;
+        h3{
+            font-size: 1rem;
+            text-align: center;
+        }
+        h1{
+            text-align: center;
+            font-size: 1.5rem;
+        }
+        p{
+            text-align: center;
+            font-size: 13.5px;
+        }
+    }
+    .about-explore-link{
+        width: 120px;
+        a{
+            font-size: 13px;
+        }
+    }
+
+    /* FEATURED */
+    .featured-section{
+        padding-top: 0px;
+        height: 275vh;
+    }
+    .featured-content{
+        height: auto;
+        padding-top: 4em;
+    }
+    .featured-container{
+        width: 90%;
+        h1{
+            font-size: 1.3rem;
+        }
+        p{
+            font-size: 0.80rem;
+        }
+    }
+    .featured-resort-grid{
+        width: 93%;
+        max-width: 275px;
+        height: 232vh;
+        margin-top: 2em;
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+    .featured-resort-item{
+        transform: translateY(50px);
+    }
+    .featured-resort-item2{
+        transform: translateY(50px);
+    }
+    .featured-resort-item .column-image,
+    .featured-resort-item2 .column-image{
+        height: 30vh;   
+    }
+    .resort-description .description-header{
+        p{
+            font-size: 12.5px;
+        }
+        .resort-ratings{
+            img{
+                width: 12px;
+            }
+            p{
+                padding: 0 2px;
+                font-weight: 300;
+            }
+        }
+        .resort-description .description-body{
+            p{
+                font-size: 10px;
+            }
+        }
+    }
+    
+
+    /* Resort */
+    .resort-section{
+        padding-top: 5em;
+        height: 405vh;
+    }
+    .resort-container{
+        height: 380vh;
+        width: 80%;
+        h1{
+            text-align: center;
+            font-size: 1.4rem;
+        }
+        p{
+            font-size: 13px;
+            text-align: center;
+        }
+    }
+    .resort-grid-container{
+        grid-template-columns: 1fr;
+    }
+    .resort-content:last-child .resort-info{
+        margin-top: 0;
+        p{
+            font-size: 12.5px;
+        }
+    }
+    .resort-info{
+        padding-top: 30px;
+        h2{
+            font-size: 1.1rem;
+        }
+        p{
+            text-align: left;
+            font-size: 12px;
+            height: 120px;
+        }
+    }
+    .resort-details{
+        margin: 0;
+    }
+
+    /* Contact */
+    .contact-section{
+        height: 160vh;
+    }
+    .contact-overlay{
+        grid-template-columns: 1fr;
+        top: 50%;
+        width: 95%;
+        height: 135vh;
+    }
+    .contact-info{
+        margin-top: 15px;
+        h1{
+            font-size: 1.7rem;
+        }
+        p{
+            font-size: 12.5px;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+    }
+    .contact-links{
+        img{
+            width: 20px;
+            height: 20px;
+        }
+        a{
+            font-size: 11px;
+        }
+    }
+    .container-input{
+        width: 93%;
+        h3{
+            font-size: 1rem;
+        }
+        p{
+            font-size: 13px;
+        }
+    }
+    .container-input .contact-input,
+    .container-input textarea{
+        font-size: 11px;
+    }
+    .contact-input::placeholder,
+    .contact-container textarea::placeholder{
+        font-size: 11px;
+    }
+    .contact-btn{
+        font-size: 13px;
+    }
+
+    /* Footer */
+    .footer-section{
+        height: 115vh;
+    }
+    .footer-container{
+        height: 100vh;
+    }
+    .footer-content{
+        height: 90vh;
+        grid-template-columns: 1fr;
+    }
+    .footer-logo{
+        display: flex;
+        flex-direction: column;
+        height: 25vh;
+        row-gap: 10px;
+        a{
+            text-align: center;
+            font-size: 2.2rem;
+        }p{
+            text-align: center;
+            padding: 0 15px;
+        }
+    }
+    .footer-social-media-container{
+        margin-left: 0;
+        justify-content: center;
+    }
+    .footer-nav{
+        height: 30vh;
+        margin-top: 3em;
+        padding: 0;
+        align-items: center;
+        h4{
+            text-align: center;
+            margin-bottom: 10px;
+        }
+    }
+    .footer-nav .footer-nav-list-item{
+        margin: 7px 0;
+    }
+    .footer-contact{
+        padding: 0;
+        align-items: center;
+        h4{
+            text-align: center;
+            padding-left: 0;
+        }
+    }
+    .footer-contact-links{
+        margin: 0;
+    }
+    .footer-copy-right p{
+        font-size: 12px;
+    }
+
+    @keyframes revealAnim {
+        to{
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+}     
+
+
+/* IPAD / TABLET */
+@media (min-width: 620px) and (max-width: 780px){
+    /* HOME PAGE */
+    .menu-toggle{
+        display: block;
+        width: 20%;
+    }
+    nav{
+        display: none;
+    }
+    .container-nav{
+        padding: 0 2em;
+    }
+    .container-home-text{
+        h1{
+            font-size: 3.8rem;
+        }
+        h2{
+            font-size: 1.5rem;
+        }
+        p{
+            max-width: 620px;
+            font-size: 13px;
+        }
+    }
+    .link-resorts a{
+        font-size: 17px;
+    }
+
+    /* ABOUT */
+    .about-section{
+        height: 135vh;
+    }
+    .about-container{
+        height: 120vh;
+        grid-template-columns: 1fr;
+    }
+    .about-image{
+        padding-top: 5em;
+        padding-left: 4em;
+    }
+    .about-image-relative{
+        width: 90%;
+        height: 40vh;
+    }
+    .about-image-absolute{
+        width: 40%;
+        height: 15vh;
+        bottom: -45px;
+        right: -35px;
+    }
+    .about-content{
+        justify-content: flex-start;
+        align-items: center;
+        padding: 20px 2em;
+        h3{
+            margin-top: 10px;
+            text-align: center;
+        }
+        h1{
+            text-align: center;
+            font-size: 1.8rem;
+        }
+        p{
+            text-align: center;
+            font-size: 15px;
+        }
+    }
+
+    /* FEATURED RESORT */
+    .featured-section{
+        padding-top: 2em;
+        height: 155vh;
+    }
+    .featured-content{
+        height: 150vh;
+    }
+    .featured-resort-grid{
+        width: 90%;
+        max-width: 680px;
+        height: 107vh;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 15px;
+        column-gap:30px;
+    }
+    .featured-resort-item .column-image,
+    .featured-resort-item2 .column-image{
+        height: 25vh;
+    }
+    .resort-description{
+        height: 29vh;
+        grid-template-rows: 50px 103px 40px;
+    }
+    .resort-description .description-header{
+        p{
+            font-size: 12.9px;
+        }
+    }
+    .resort-description .description-body{
+        p{
+            font-size: 13px;
+        }
+    }
+    .resort-link .btn-details{
+        padding: 0 1.2em;
+        align-items: center;
+        width: 60%;
+        max-width: 137px;
+        a{
+            font-size: 12px;
+        }
+    }
+
+    /* Resort */
+    .resort-section{
+        height: 230vh;
+    }
+    .resort-container{
+        height: 208vh;
+        h1{
+            font-size: 1.4rem;
+        }
+        p{
+            font-size: 16px;
+        }
+    }
+    .resort-grid-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .resort-content:last-child{
+        height: 27vh;
+        grid-column: 1 / -1;
+        img{
+            height: 27vh;
+        }
+        h2{
+            font-size: 1.2rem;
+        }
+        p{
+            margin-top: 40px;
+            width: 95%;
+            font-size: 13px;
+        }
+    }
+    .resort-content:last-child .resort-info{
+        padding-right: 15px;
+        h2{
+            font-size: 1.1rem;
+        }
+        p{
+            font-size: 12px;
+            height: 40px;
+        }
+    }
+    .resort-content:last-child .resort-info .resort-details{
+        margin-top: 10px;
+    }
+    .resort-info{
+        text-align: left;
+        h2{
+            font-size: 1rem;
+        }
+        P{
+            margin-top: 40px;
+            font-size: 12px;
+        }
+    }
+    .resort-details{
+        margin: 0;
+    }
+
+    /* Contact */
+    .contact-section{
+        height: 160vh;
+    }
+    .contact-overlay{
+        grid-template-columns: 1fr;
+        top: 50%;
+        height: 135vh;
+    }
+    .contact-info{
+        h1{
+            font-size: 2rem;
+        }
+        p{
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+    }
+    .contact-links{
+        img{
+            width: 25px;
+            height: 25px;
+        }
+        a{
+            font-size: 12px;
+        }
+    }
+    .container-input{
+        width: 90%;
+        h3{
+            font-size: 1.2rem;
+        }
+        p{
+            font-size: 14px;
+        }
+    }
+    .container-input .contact-input,
+    .container-input textarea{
+        font-size: 12px;
+    }
+    .contact-input::placeholder,
+    .contact-container textarea::placeholder{
+        font-size: 12px;
+    }
+
+    /* Footer */
+    .footer-section{
+        height: 60vh;
+    }
+    .footer-container{
+        height: 52vh;
+    }
+    .footer-content{
+        height: 50vh;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer-nav{
+        padding-left: 5em;
+    }
+    .footer-nav .footer-nav-list-item{
+        margin: 5px 0;
+    }
+    .footer-logo a{
+        font-size: 2.3rem;
+    }
+    .footer-nav .footer-nav-links{
+        a{
+            font-size: 13px;
+        }
+    }
+    .footer-contact{
+        h4{
+            padding-left: 0;
+        }
+    }
+    .footer-contact-links{
+        margin: 0;
+    }
+    .footer-copy-right{
+        p{
+            font-size: 13px;
+        }
+    }
+}
+
+/* Dekstop */
+@media (min-width: 780px) and (max-width: 1050px){
+    /* HOME PAGE */
+    .container-nav{
+        padding: 0 2em;
+    }
+    .container-home-text{
+        h1{
+            font-size: 3.8rem;
+        }
+        h2{
+            font-size: 1.5rem;
+        }
+        p{
+            max-width: 620px;
+            font-size: 13px;
+        }
+    }
+    .link-resorts a{
+        font-size: 17px;
+    }
+
+    /* ABOUT */
+    .about-section{
+        height: 130vh;
+    }
+    .about-container{
+        height: 120vh;
+        grid-template-columns: 1fr;
+    }
+    .about-image{
+        padding-top: 5em;
+        padding-left: 4em;
+    }
+    .about-image-relative{
+        width: 90%;
+        height: 40vh;
+    }
+    .about-image-absolute{
+        height: 18vh;
+        right: -30px;
+    }
+    .about-content{
+        justify-content: flex-start;
+        align-items: center;
+        padding: 30px 2em;
+        h3{
+            text-align: center;
+        }
+        h1{
+            text-align: center;
+            font-size: 1.8rem;
+        }
+        p{
+            text-align: center;
+            font-size: 15px;
+        }
+    }
+
+    /* FEATURED RESORT */
+    .featured-section{
+        height: 145vh;
+    }
+    .featured-content{
+        height: 150vh;
+    }
+    .featured-resort-grid{
+        width: 90%;
+        max-width: 680px;
+        height: 107vh;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 15px;
+        column-gap:30px;
+    }
+    .featured-resort-item .column-image,
+    .featured-resort-item2 .column-image{
+        height: 25vh;
+    }
+    .resort-description{
+        height: 29vh;
+        grid-template-rows: 50px 103px 40px;
+    }
+    .resort-description .description-header{
+        p{
+            font-size: 12.9px;
+        }
+    }
+    .resort-link .btn-details{
+        padding: 0 1.2em;
+        align-items: center;
+        width: 60%;
+        max-width: 137px;
+        a{
+            font-size: 12px;
+        }
+    }
+
+    /* Resort */
+    .resort-section{
+        height: 235vh;
+    }
+    .resort-container{
+        height: 208vh;
+        h1{
+            font-size: 1.8rem;
+        }
+    }
+    .resort-grid-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .resort-content:last-child{
+        height: 27vh;
+        grid-column: 1 / -1;
+        img{
+            height: 27vh;
+        }
+        p{
+            width: 95%;
+        }
+    }
+    .resort-info,
+    .resort-content:last-child .resort-info{
+        padding-right: 15px;
+        h2{
+            font-size: 1.1rem;
+        }
+        p{
+            font-size: 13px;
+            height: 120px;
+        }
+    }
+
+    .resort-content:last-child .resort-info{
+        padding-right: 15px;
+        h2{
+            font-size: 1.1rem;
+        }
+        p{
+            font-size: 13px;
+            height: 50px;
+        }
+    }
+    .resort-content:last-child .resort-info .resort-details{
+        margin: 0;
+    }
+
+    /* Contact */
+    .contact-info{
+        h1{
+            font-size: 2rem;
+        }
+        p{
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+    }
+    .contact-links{
+        img{
+            width: 25px;
+            height: 25px;
+        }
+        a{
+            font-size: 12px;
+        }
+    }
+    .container-input{
+        width: 93%;
+        h3{
+            font-size: 1.2rem;
+        }
+        p{
+            font-size: 13px;
+        }
+    }
+    .container-input .contact-input,
+    .container-input textarea{
+        font-size: 12px;
+    }
+    .contact-input::placeholder,
+    .contact-container textarea::placeholder{
+        font-size: 12px;
+    }
+    .contact-btn{
+        font-size: 14px;
+    }
+
+    /* Footer */
+    .footer-logo{
+        a{
+            font-size: 2.4rem;
+        }
+        p{
+            font-size: 14px;
+        }
+    }
+    .footer-content{
+        column-gap: 20px;
+    }
+    .footer-social-media-links{
+        height: 30px;
+        width: 30px;
+        img{
+            width: 20px; 
+        }
+    }
+    .footer-nav .footer-nav-links{
+        font-size: 14px;
+    }
+    .footer-contact{
+        h4{
+            padding-left: 0;
+        }
+    }
+    .footer-contact-links{
+        margin: 0;
+        img{
+            height: 20px;
+            width: 20px;
+        }
+        a{
+            font-size: 12px;
+        }
+    }
+    .footer-copy-right{
+        p{
+            font-size: 13px;
+        }
+    }
+}
